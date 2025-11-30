@@ -1,7 +1,7 @@
 import sqlite3
 import requests
 from datetime import datetime
-city="Chercasy"
+city="Cherkasy"
 key = "2516d7b16bddecafc54e491f03da8399"
 URL="https://api.openweathermap.org/data/2.5/weather?q={city}&appid={key}&units=metric"
 response = requests.get(URL)
